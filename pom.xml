@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>SDET_Essentials</groupId>
-  <artifactId>SDET_Essentials</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>SDET_Essentials</groupId>
+	<artifactId>SDET_Essentials</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 
-<dependencies>
+	<dependencies>
 
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -13,11 +13,27 @@
 		</dependency>
 
 
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.6.0</version>
+</dependency>
+
+
+
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.24</version>
+    <scope>provided</scope>
+</dependency>
+
+
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.6.1</version>
-			<scope>test</scope>
+			
 		</dependency>
 
 
@@ -28,14 +44,7 @@
 		</dependency>
 
 
-		<dependency>
-			<groupId>org.assertj</groupId>
-			<artifactId>assertj-core</artifactId>
-			<version>3.23.1</version>
-			<scope>test</scope>
-		</dependency>
-
-		<!-- This if for reading configproperly file -->
+		<!-- This if for reading data from config.properly file -->
 		<dependency>
 			<groupId>org.aeonbits.owner</groupId>
 			<artifactId>owner</artifactId>
@@ -43,6 +52,18 @@
 		</dependency>
 
 
+		<!-- This if for reading data from excel file in very easy way -->
+		<dependency>
+			<groupId>com.creditdatamw.labs</groupId>
+			<artifactId>zerocell-core</artifactId>
+			<version>0.5.1</version>
+		</dependency>
+
+
 	</dependencies>
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
 
 </project>
