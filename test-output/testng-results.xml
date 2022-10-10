@@ -1,53 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-06T10:21:36 IST" name="Default suite" finished-at="2022-10-06T10:21:37 IST" duration-ms="726">
+  <suite started-at="2022-10-10T15:40:05 IST" name="Default suite" finished-at="2022-10-10T15:40:08 IST" duration-ms="2953">
     <groups>
     </groups>
-    <test started-at="2022-10-06T10:21:36 IST" name="Default test" finished-at="2022-10-06T10:21:37 IST" duration-ms="726">
-      <class name="ZeroCell_Library_Test.zerocelltest">
-        <test-method signature="testcase(ZeroCell_Library.testdatareader)[pri:0, instance:ZeroCell_Library_Test.zerocelltest@4a883b15]" started-at="2022-10-06T10:21:37 IST" name="testcase" data-provider="getdata" finished-at="2022-10-06T10:21:37 IST" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Data Provider public static ZeroCell_Library.testdatarunner ZeroCell_Library_Test.zerocelltest.getdata() returned a null value]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Data Provider public static ZeroCell_Library.testdatarunner ZeroCell_Library_Test.zerocelltest.getdata() returned a null value
-at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:791)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:917)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+    <test started-at="2022-10-10T15:40:05 IST" name="Default test" finished-at="2022-10-10T15:40:08 IST" duration-ms="2953">
+      <class name="Lombok_Test.Restassured_Post3_Using_POJO_With_LOMBOK">
+        <test-method signature="pojotest()[pri:0, instance:Lombok_Test.Restassured_Post3_Using_POJO_With_LOMBOK@20140db9]" started-at="2022-10-10T15:40:05 IST" name="pojotest" finished-at="2022-10-10T15:40:08 IST" duration-ms="2905" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase -->
-      </class> <!-- ZeroCell_Library_Test.zerocelltest -->
+        </test-method> <!-- pojotest -->
+      </class> <!-- Lombok_Test.Restassured_Post3_Using_POJO_With_LOMBOK -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

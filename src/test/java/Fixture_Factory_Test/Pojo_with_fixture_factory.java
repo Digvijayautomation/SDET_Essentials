@@ -1,9 +1,5 @@
 package Fixture_Factory_Test;
 
-
-
-
-
 import Fixture_Factory_Library.Pojo;
 import br.com.six2six.fixturefactory.*;
 
