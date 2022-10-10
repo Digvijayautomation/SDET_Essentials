@@ -10,12 +10,17 @@ import lombok.Setter;
 @AllArgsConstructor
 public class Pojo {
 	
-	
 		
 		private int id;
 		private String name;
 		private String job;
-		private String createdAt;
+		
 		
 
+		
+		@Override
+		public String toString() {
+			return "Pojo [id=" + id + ", name=" + name + ", job=" + job + "]";
+		}
+	
 	}
