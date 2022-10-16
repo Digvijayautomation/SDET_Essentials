@@ -9,12 +9,14 @@ import lombok.Getter;
 import lombok.Setter;
 
 
+
 // For using lombok in eclipse first have to add its dependencies and then in .m2/Lombok/ folder we have to install it by clicking executbale file
 // Lombok will create the getter , setter and constructors and so many other things automatically 
 // we just have to add like @Getter @Setter @AllArgsConstructor at varibale level or at class level as per our need
 
 
 // Below are lonbok annotations
+
 
 @Getter //Lombok will create the getter , setter methods  and constructors using this anotationsand so many other things automatically 
 @Setter

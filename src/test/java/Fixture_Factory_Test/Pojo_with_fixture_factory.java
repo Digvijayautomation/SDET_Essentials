@@ -34,7 +34,7 @@ public class Pojo_with_fixture_factory {
 		
 		Fixture.of(Pojo.class).addTemplate("InValid", new Rule() 
 		{{
-			add("id",random(Integer.class,range(-1,10))); // it will take any number between 1-1000
+			add("id",random(Integer.class,range(-1,10))); // it will take any number between -1-100
 			add("name", random("Digvijay","Manoj","Suraj")); // it will take any name from given 3 names
 			add("job",uniqueRandom("QA","Automation Tester","Manual Tester")); // Uniquerandom will pick unique value every time for every itration from given data
 		

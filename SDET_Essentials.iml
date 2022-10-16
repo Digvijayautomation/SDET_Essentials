@@ -137,6 +137,18 @@
     <orderEntry type="library" name="Maven: junit:junit:4.8.1" level="project" />
     <orderEntry type="library" name="Maven: com.thoughtworks.paranamer:paranamer:2.5" level="project" />
     <orderEntry type="library" name="Maven: net.vidageek:mirror:1.6.1" level="project" />
+    <orderEntry type="library" name="Maven: io.github.sskorol:test-data-supplier:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jooq:joor:0.9.14" level="project" />
+    <orderEntry type="library" name="Maven: one.util:streamex:0.8.1" level="project" />
+    <orderEntry type="library" name="Maven: io.vavr:vavr:0.10.4" level="project" />
+    <orderEntry type="library" name="Maven: io.vavr:vavr-match:0.10.4" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.9.9.1" level="project" />
+    <orderEntry type="library" name="Maven: org.reflections:reflections:0.10.2" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.28.0-GA" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-csv:1.9.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.3" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.30" level="project" />
+    <orderEntry type="library" name="Maven: org.assertj:assertj-core:3.22.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.4" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.4" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.4" level="project" />

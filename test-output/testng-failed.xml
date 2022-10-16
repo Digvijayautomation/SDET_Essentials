@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ZeroCell_Library_Test.zerocelltest">
+      <class name="Data_Supplier_Test.data_supplier">
         <methods>
-          <include name="testcase"/>
+          <include name="demo"/>
         </methods>
-      </class> <!-- ZeroCell_Library_Test.zerocelltest -->
+      </class> <!-- Data_Supplier_Test.data_supplier -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
