@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Data_Supplier_Test.data_supplier">
+      <class name="Lombok_Test.Restassured_Post3_Using_POJO_With_LOMBOK">
         <methods>
-          <include name="demo"/>
+          <include name="pojotest"/>
         </methods>
-      </class> <!-- Data_Supplier_Test.data_supplier -->
+      </class> <!-- Lombok_Test.Restassured_Post3_Using_POJO_With_LOMBOK -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

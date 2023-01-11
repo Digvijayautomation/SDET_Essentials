@@ -21,7 +21,7 @@ public class Restassured_Post3_Using_POJO_With_LOMBOK {
 			
 			// Creating object of Employee_POJO Class and passing it as body
 			// datatypes for the data we are passing passing in this emp object is already fixed in pojo class
-			Employee_POJO_with_Lombok emp=	new Employee_POJO_with_Lombok(20,"Digvijay","QA Lead","15-09-2022");
+			Employee_POJO_with_Lombok emp=	new Employee_POJO_with_Lombok();
 			
 			
 			         Response response= given()
